@@ -71,7 +71,7 @@ int main()
 
             for (int i = 0; i <= cursor; i++)
             {
-                if (tName == name[i])
+                if (tName == name[i] && age[i] != -1)
                     salay[i] = tSalary;
             }
 
