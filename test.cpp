@@ -29,8 +29,8 @@ int main()
 
     for (int i = 0; i < columns; i++)
     {
-        r1_sum += matrix[r1-1][i];
-        r2_sum += matrix[r2-1][i];
+        r1_sum += matrix[r1 - 1][i];
+        r2_sum += matrix[r2 - 1][i];
     }
 
     if (r1_sum > r2_sum)
